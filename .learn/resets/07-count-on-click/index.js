@@ -17,10 +17,4 @@ window.increaseCounter = function increaseCounter()
 }
 
 // Your code here
-window.decreaseCounter = () => { 
-
-	counter--;
-
-	document.querySelector("#screen").innerHTML = "The counter value is "+counter;
-}
 

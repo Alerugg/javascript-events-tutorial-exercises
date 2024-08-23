@@ -4,10 +4,16 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>4Geeks Academy</title>
+		<!-- <script>
+			const loadListener = () => {
+				document.querySelector(".quitar").style.display = "none";
+				alert("Loading finished...");
+			};
+		</script> -->
 	</head>
 
-	<body>
-		<p>Hello! Please alert "Loading finished..." when this website finally loads.</p>
+	<body onload="loadListener()">
+		<p class="quitar">Hello! Please alert "Loading finished..." when this website finally loads.</p>
 		<script src="index.js"></script>
 	</body>
 </html>
